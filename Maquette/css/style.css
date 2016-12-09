@@ -1,0 +1,278 @@
+.global{
+  font-family: 'Raleway', sans-serif;
+}
+
+.bulle{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(128,128,190);
+  color: white;
+  font-size: 20px;
+  box-shadow: 0px 2px 5px rgb(70,70,70);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  z-index: 900;
+}
+
+.bulle p{
+  padding-top: 5px;
+}
+/*-----------------------------------Page 1-----------------------------------*/
+
+.acceuil{
+  background-image: url("../images/payments-banner-graphic.png");
+  background-size: cover;
+  width: 100%;
+  color: white;
+}
+
+.navbar button{
+  background-color: transparent;
+}
+
+.navbar button span{
+  background-color: white;
+}
+
+.navbar a{
+  color: white;
+  font-weight: bold;
+}
+
+.logo{
+  width: 30px;
+  height: auto;
+  margin-top: -5px;
+}
+
+.titre{
+  margin-top: 12%;
+  padding-bottom: 17%;
+}
+
+.soustitre{
+  font-size: 22px;
+  font-family:serif;
+}
+
+.titre a{
+  text-decoration: none;
+}
+
+.nouveaucompte{
+  color: rgb(143,135,190);
+  background-color: rgb(254,254,254);
+  font-weight:bold;
+  text-align: center;
+  width: 300px;
+  border: 1px solid rgb(103,103,162);
+  padding-top: 10px;
+  padding-bottom: 9px;
+  border-radius: 5px;
+}
+
+.navbar-brand:hover,
+.navbar-nav li a{
+  background-color: transparent!important;
+}
+
+
+/*------------------------------------Page 2----------------------------------*/
+
+.page2{
+  background-color: rgb(254,254,254);
+}
+
+.iconesPage2{
+  height: 70px;
+  width: auto;
+}
+
+.titrePage2{
+  font-size: 21px;
+  font-weight: normal;
+}
+
+.couleurblack{
+  color: rgb(77,77,77);
+}
+
+.bordureDroite{
+  border-right: 1px solid rgb(221,221,221);
+}
+
+.espacePage2{
+  margin-top: 7%;
+  padding-bottom: 7%;
+}
+
+.bordureBas{
+  border-bottom: 1px solid rgb(221,221,221);
+}
+
+/*-----------------------------------Page 3-----------------------------------*/
+
+.page3{
+  background-color: rgb(246,249,251);
+  padding-top: 5%;
+  padding-bottom: 4%;
+}
+
+.gris{
+  color: rgb(115,115,115);
+  font-size: 18px;
+}
+
+.dollar{
+  font-size: 65px;
+  color: rgb(128,128,190);
+  font-family: 'Open Sans', sans-serif;
+  float: left;
+  margin-right: 10px;
+}
+
+.titrePage3{
+  font-size: 25px;
+}
+
+.textPage3{
+  font-size: 14px;
+  color: grey;
+}
+
+.gauchePage3{
+  float: left;
+
+}
+.droitePage3{
+}
+.blockPage3{
+  margin:auto;
+  width: 300px;
+  display: inline-block;
+}
+
+/*-----------------------------------Page 4-----------------------------------*/
+
+.page4{
+  background-color: rgb(76,83,92);
+  padding-top:24px;
+  padding-bottom: 17px;
+}
+
+.blancP4{
+  color: rgb(254,254,238);
+  font-size: 20px;
+  font-family: 'Raleway';
+}
+
+/*-----------------------------------Page 5-----------------------------------*/
+
+.fond1{
+  background-color: rgb(124,213,239);
+  overflow: hidden;
+}
+
+.fond2{
+  background-color: rgb(128,128,190);
+  overflow: hidden;
+}
+
+.imagePage5{
+  height: auto;
+  width: 450px;
+  margin-top: 50px;
+  margin-bottom: -100px;
+  border-radius: 15px;
+}
+
+.nabvar-toggle{
+  color: white;
+}
+
+.texteP5{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin: auto;
+  width: 75%;
+}
+
+.texteP5 h1{
+  width: 80%;
+  font-size: 25px;
+}
+
+/*-----------------------------------Page 6-----------------------------------*/
+
+.page6{
+  background-color: rgb(252,252,252);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.noir{
+  color: rgb(36,38,41);
+  font-size: 18px;
+}
+
+.gras{
+  font-weight: bold;
+}
+
+.nouveaucompte2{
+  color: rgb(254,254,254);
+  background-color: rgb(0,172,132);
+  font-weight:bold;
+  text-align: center;
+  width: 210px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.page6 a{
+  text-decoration: none;
+}
+
+/*-----------------------------------Footer-----------------------------------*/
+
+.basPage{
+  background-color: rgb(36,38,41);
+  color: rgb(119,119,119);
+}
+
+.blanc{
+  color: rgb(170,170,157);
+}
+
+.lienP7{
+  color: rgb(170,170,157);
+}
+
+.lienP7:hover{
+  color: rgb(240,240,220);
+  text-decoration: none;
+}
+
+.tableau{
+  margin: auto;
+  margin-top: 50px;
+}
+
+.espaceTd{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.espaceBas{
+  padding: 30px;
+}
+
+th{
+  padding-bottom: 10px;
+}
